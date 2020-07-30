@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Builder.io</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Builder.io is a website where you can find HTML website template">
+        <meta name="keywords" content="Builder.io, website, builder, HTML, temnplate">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Sintony:wght@400;700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/5b73e6d48f.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="styles/styles.css" type="text/css">
+        <link rel="stylesheet" href="styles/responsive.css" type="text/css">
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <button id="back2Top"><i class="fas fa-arrow-up"></i></button>
+            <div class="top-main-section">
+                <div class="container">
+                    <div class="main-section">
+                        <div class="header-section">
+                            <ul class="reset">
+                                <li><a href="#">Sign Up</a></li>
+                                <li><a href="#">Log In</a></li>
+                                <li><a href="#">Support</a></li>
+                            </ul>
+                        </div>
+                        <div class="banner-section">
+                            <h1>Builder.io</h1>
+                            <p>Builder.io lets you generate unique HTML website templates talloried for desigers.</p>
+                            <a href="#" class="sign-up-btn">Sign Up</a>
+                            <img src="images/banner-img.jpg" alt="banner-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="get-started">
+                <div class="container">
+                    <ul class="reset">
+                        <li><a href="#" class="started active">Get Started</a></li>
+                        <li><a href="#" class="demo">Try Demo</a></li>
+                    </ul>
+                    <h3>Built for creative folk</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua consectetur adipisicing elit.</p>
+                </div>
+            </div>
+
+            <div class="about-product-section">
+                <div class="container">
+                    <div class="left-about-product">
+                        <h3>Work with your hands</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
+                    </div>
+                    <div class="right-about-product">
+                        <h3>Optimised for the road</h3>
+                        <p>Builder not only works great on a desktop or laptop but has also been optimised to be just as easy to use on a table or mobile device.</p>
+                    </div>
+                    <div class="clear"></div>
+                    <a href="#" class="account">Create Account</a>
+                    <div class="phone-image"><img src="images/phone-img.png" alt="phone"></div>
+                </div>
+            </div>
+
+            <div class="take-look-section">
+                <div class="container">
+                    <h3>Take a look inside</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+                    <ul class="reset">
+                        <li><a href="#" class="active">Take my money!</a></li>
+                        <li><a href="#">Free account</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="video-section">
+                <img src="images/player-img.jpg" alt="player-img">
+            </div>
+            <script>
+                $(window).scroll(function() {
+                    var height = $(window).scrollTop();
+                    if (height > 500) {
+                        $('#back2Top').fadeIn();
+                    } else {
+                        $('#back2Top').fadeOut();
+                    }
+                });
+                $(document).ready(function() {
+                    $("#back2Top").click(function(event) {
+                        event.preventDefault();
+                        $("html, body").animate({ scrollTop: 0 }, "slow");
+                        return false;
+                    });
+                });
+            </script>
+
+            <div class="services-section">
+                <div class="container">
+                    <ul class="reset">
+                        <li>
+                            <img src="images/services-icon-1.png" alt="services-icon-1">
+                            <h3>Pick your layots</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                            <a href="#">Create Account here</a>
+                        </li>
+                        <li>
+                            <img src="images/services-icon-2.png" alt="services-icon-2">
+                            <h3>Export</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                            <a href="#">See Pricing</a>
+                        </li>
+                        <li>
+                            <img src="images/services-icon-3.png" alt="services-icon-3">
+                            <h3>Edit</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                            <a href="#">View Support Documents</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="subscription-section">
+                <div class="container">
+                    <h3>Choose a subscription</h3>
+                    <p>A intrerface built by deigners, for designers. What a clice tag line lol.</p>
+                    <div class="plans-section">
+                        <div class="plan-1">
+                            <h3>Free Account</h3>
+                            <div class="free-plan">
+                                <p>Great for giving it a try or the one off web designer</p>
+                                <h4>Free</h4>
+                                <ul class="reset">
+                                    <li>Save up to 2 layouts</li>
+                                    <li>Export 1 HTML template</li>
+                                    <li>15 Layout Options</li>
+                                    <li>Tweet to get more layouts</li>
+                                </ul>
+                                <a href="#" class="plan-sign-up mt-fix">Sign Up <i class="fas fa-check"></i></a>
+                            </div>
+                            <p class="users">Join<span>34,293</span>users</p>
+                        </div>
+                        <div class="plan-2">
+                            <h3>Yearly Subscription</h3>
+                            <div class="yearly-plan">
+                                <p>Great for giving it a try or the one off web designer</p>
+                                <h4>$89<span>/Yearly</span></h4>
+                                <ul class="reset">
+                                    <li>Save unlimted layouts</li>
+                                    <li>Export unlimted HTML templates</li>
+                                    <li>Over 30 Layout Options & counting</li>
+                                    <li>New Layouts added monthly</li>
+                                    <li>Learning Documentation</li>
+                                    <li>Somthing else</li>
+                                </ul>
+                                <a href="#" class="plan-sign-up">Sign Up <i class="fas fa-check"></i></a>
+                            </div>
+                            <p class="users">Join<span>1,828</span>users</p>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="view-section">
+                    <img src="images/preview-img.jpg" alt="preview-img">
+            </div>
+
+            <div class="link-section">
+                <div class="container">
+                    <a href="#">Take my money!</a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <div class="container">
+                    <ul class="reset">
+                        <li>
+                            <h3>Builder.io</h3>
+                            <a href="#">Login</a>
+                            <a href="#">Sign up</a>
+                            <a href="#">Support</a>
+                            <a href="#">Contact Us</a>
+                        </li>
+                        <li>
+                            <h3>Company</h3>
+                            <a href="#">About Us</a>
+                            <a href="#">Blog</a>
+                            <a href="#">Contact</a>
+                        </li>
+                        <li>
+                            <h3>Learning</h3>
+                            <a href="#">Support Articles</a>
+                            <a href="#">Support Documentation</a>
+                            <a href="#">Forum</a>
+                            <a href="#">How to Videos</a>
+                        </li>
+                    </ul>
+                    <img src="images/footer-object-icon.png" alt="footer-object-icon">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

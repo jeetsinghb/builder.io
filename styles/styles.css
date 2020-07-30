@@ -1,0 +1,621 @@
+/* Google Fonts
+font-family: 'Montserrat', sans-serif;
+font-family: 'Sintony', sans-serif;
+*/
+
+@font-face {
+    font-family: Nexa_regular;
+    font-weight: 400;
+    src: url('../fonts/Nexa_Regular.otf');
+}
+
+@font-face {
+    font-family: Nexa_bold;
+    font-weight: 600;
+    src: url('../fonts/Nexa_Bold.otf');
+}
+
+@font-face {
+    font-family: Nexa_heavy;
+    font-weight: 900;
+    src: url('../fonts/Nexa_Heavy.ttf');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Sintony', sans-serif;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+}
+
+.clear {
+    clear: both;
+    overflow: hidden;
+}
+
+.reset {
+    font-size: 0;
+    list-style-type: none;
+    padding: 0;
+}
+
+#wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+/* Main Code */
+
+.top-main-section {
+    position: relative;
+    background: url('../images/main-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-section {
+    width: 915px;
+    margin: 0 auto;
+}
+
+.main-section .header-section {
+    text-align: right;
+    padding: 50px 0px 60px 0px;
+}
+
+.main-section .header-section ul li {
+    display: inline-block;
+    margin-right: 28px;
+}
+
+.main-section .header-section ul li:last-child {
+    margin-right: 0;
+}
+
+.main-section .header-section ul li a {
+    display: block;
+    font-size: 14pt;
+    color: #d9caf3;
+    padding-bottom: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    border-bottom: 2px solid transparent;
+    transition: 0.5s;
+}
+
+.main-section .header-section ul li a:hover {
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    transition: 0.5s;
+}
+
+.main-section .banner-section {
+    text-align: center;
+}
+
+.main-section .banner-section h1 {
+    font-size: 60pt;
+    font-weight: 400;
+    color: #fff;
+}
+
+.main-section .banner-section p {
+    font-size: 20px;
+    color: #e2d8f3;
+    margin: 15px 0px 30px 0px;
+}
+
+.main-section .banner-section a.sign-up-btn {
+    font-size: 16pt;
+    color: #fff;
+    text-transform: uppercase;
+    background: #4edbde;
+    border-radius: 2px;
+    display: block;
+    margin: 0 auto 55px auto;
+    width: 300px;
+    padding: 25px 75px;
+    font-family: Nexa_bold;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.main-section .banner-section img {
+    width: 100%;
+}
+
+.get-started {
+    padding: 35px 0px 100px 0px;
+    text-align: center;
+}
+
+.get-started ul {
+    text-align: center;
+}
+
+.get-started ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.get-started ul li:last-child {
+    margin-right: 0;
+}
+
+.get-started ul li a {
+    display: block;
+    font-size: 16pt;
+    color: #b1bad0;
+    font-family: Nexa_bold;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 2px solid #e7eaf1;
+    border-radius: 3px;
+}
+
+.get-started ul li a.started {
+    padding: 25px 50px;
+}
+
+.get-started ul li a.demo {
+    padding: 25px 40px;
+    transition: 0.5s;
+}
+
+.get-started ul li a.started:hover,
+.get-started ul li a.demo:hover,
+.get-started ul li a.active {
+    background: #ae99d9;
+    border-color: #ae99d9;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.get-started h3 {
+    font-size: 35pt;
+    color: #a3adb5;
+    font-weight: 400;
+    margin: 60px 0px 25px 0px;
+}
+
+.get-started p {
+    font-size: 20pt;
+    color: #b7bfc5;
+    line-height: 33pt;
+}
+
+.about-product-section {
+    background: url('../images/about-product-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    position: relative;
+    border-top: 1px solid #e7eaf1;
+}
+
+.about-product-section .left-about-product {
+    float: left;
+}
+
+.about-product-section .right-about-product {
+    float: right;
+}
+
+.about-product-section .left-about-product,
+.about-product-section .right-about-product {
+    width: 48%;
+}
+
+.about-product-section .left-about-product h3,
+.about-product-section .right-about-product h3 {
+    font-size: 35pt;
+    color: #a3adb5;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.about-product-section .left-about-product p,
+.about-product-section .right-about-product p {
+    font-size: 16pt;
+    color: #a3adb5;
+    line-height: 29pt;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.about-product-section a.account {
+    font-size: 16pt;
+    color: #fff;
+    text-transform: uppercase;
+    background: #b6a1dd;
+    border-radius: 3px;
+    font-family: Nexa_bold;
+    font-weight: 600;
+    display: inline-block;
+    padding: 20px 35px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    box-shadow: 0px 1px 2px #9887b7,
+    inset 0px 1px 10px #9887b7;
+}
+
+.about-product-section .phone-image {
+    position: relative;
+}
+
+.about-product-section .phone-image img {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.take-look-section {
+    padding: 80px 0px;
+    background: url('../images/take-look-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0px 0px 20px #7d66a7;
+    text-align: center;
+    color: #fff;
+}
+
+.take-look-section h3 {
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.take-look-section p {
+    font-size: 15pt;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 29pt;
+    margin: 15px 0px 45px 0px;
+}
+
+.take-look-section ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.take-look-section ul li:last-child {
+    margin-right: 0;
+}
+
+.take-look-section ul li a:last-child {
+    padding: 15px 40px;
+}
+
+.take-look-section ul li a {
+    font-size: 16pt;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: Nexa_bold;
+    font-weight: 600;
+    display: block;
+    padding: 15px 60px;
+    border: 2px solid #fff;
+    transition: 0.5s;
+}
+
+.take-look-section ul li a:hover,
+.take-look-section ul li a.active {
+    background: #46c5c8;
+    border: 2px solid #46c5c8;
+    transition: 0.5s;
+    box-shadow: 0px 2px 3px #816bac;
+    font-family: Nexa_bold;
+    font-weight: 600;
+}
+
+.video-section {
+    position: relative;
+}
+
+.video-section img {
+    width: 100%;
+}
+
+#back2Top {
+    width: 40px;
+    height: 40px;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+    border: 0;
+    background: #b6aecd;
+    color: #fff;
+    font-size: 23px;
+    text-decoration: none;
+    border-radius: 50%;
+    transition: 0.5s;
+    outline: 0;
+    margin-right: 90px;
+}
+
+#back2Top:hover {
+    background: #000;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.services-section {
+    background: #f6f6f4;
+    padding: 130px 0px 150px 0px;
+    border-bottom: 1px solid #e7eaf1;
+}
+
+.services-section ul li {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    margin-right: 5%;
+}
+
+.services-section ul li:last-child {
+    margin-right: 0;
+}
+
+.services-section ul li img {
+    margin: 0 auto;
+}
+
+.services-section ul li h3 {
+    font-size: 30px;
+    color: #a3adb5;
+    font-weight: 400;
+    margin-top: 60px;
+}
+
+.services-section ul li p {
+    font-size: 15pt;
+    color: #abb4bb;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 29pt;
+    margin: 25px 0px 15px 0px;
+}
+
+.services-section ul li a {
+    font-size: 15pt;
+    color: #977ec5;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.subscription-section {
+    padding: 80px 0px;
+    text-align: center;
+}
+
+.subscription-section h3 {
+    font-size: 35pt;
+    color: #8e75bd;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.subscription-section p {
+    font-size: 15pt;
+    color: #8e75bd;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin-bottom: 45px;
+}
+
+.subscription-section .plans-section {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.subscription-section .plans-section .plan-1 {
+    float: left;
+}
+
+.subscription-section .plans-section .plan-2 {
+    float: right;
+}
+
+.subscription-section .plans-section .plan-1,
+.subscription-section .plans-section .plan-2 {
+    width: 48%;
+}
+
+.subscription-section .plans-section .plan-1 .free-plan,
+.subscription-section .plans-section .plan-2 .yearly-plan {
+    border: 2px solid #e6e9f0;
+    padding: 35px 40px;
+}
+
+.subscription-section .plans-section .plan-1 .free-plan:hover,
+.subscription-section .plans-section .plan-2 .yearly-plan:hover {
+    border: 2px solid #e1d9ef;
+}
+
+.subscription-section .plans-section .plan-1 h3,
+.subscription-section .plans-section .plan-2 h3 {
+    background: #977fc5;
+    font-size: 20pt;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: Nexa_heavy;
+    font-weight: 900;
+    padding: 25px 0px;
+    margin-bottom: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.subscription-section .plans-section .plan-1 .free-plan p,
+.subscription-section .plans-section .plan-2 .yearly-plan p {
+    font-size: 16pt;
+    color: #8c8c8c;
+    font-family: Nexa_bold;
+    font-weight: 600;
+    margin-bottom: 0;
+    line-height: 32px;
+}
+
+.subscription-section .plans-section .plan-1 .free-plan h4,
+.subscription-section .plans-section .plan-2 .yearly-plan h4 {
+    font-size: 40pt;
+    color: #44c5c7;
+    font-family: Nexa_bold;
+    font-weight: 600;
+    margin: 25px 0px 20px 0px;
+}
+
+.subscription-section .plans-section .plan-2 .yearly-plan h4 span {
+    font-size: 18pt;
+    color: #b7bfc5;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.subscription-section .plans-section .plan-1 .free-plan ul li,
+.subscription-section .plans-section .plan-2 .yearly-plan ul li {
+    font-size: 16pt;
+    color: #b7bfc5;
+    border-top: 3px solid #e7eaf1;
+    font-family: Nexa_bold;
+    font-weight: 600;
+    padding: 20px 0px;
+}
+
+.subscription-section .plans-section .plan-1 .free-plan a.plan-sign-up,
+.subscription-section .plans-section .plan-2 .yearly-plan a.plan-sign-up {
+    font-size: 16pt;
+    color: #967dc4;
+    display: block;
+    border: 2px solid #967dc4;
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-family: Nexa_bold;
+    font-weight: 600;
+    padding: 20px 0px;
+    margin-top: 10px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.subscription-section .plans-section .plan-1 .free-plan a.plan-sign-up:hover,
+.subscription-section .plans-section .plan-2 .yearly-plan a.plan-sign-up:hover {
+    background: #967dc4;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.subscription-section .plans-section .plan-1 .free-plan a.plan-sign-up i,
+.subscription-section .plans-section .plan-2 .yearly-plan a.plan-sign-up i {
+    font-size: 16pt;
+    margin-left: 14px;
+}
+
+.subscription-section .plans-section .plan-1 .free-plan a.mt-fix {
+    margin-top: 150px;
+}
+
+.subscription-section .plans-section .plan-1 p.users,
+.subscription-section .plans-section .plan-2 p.users {
+    font-size: 18pt;
+    color: #9ca0ab;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+.subscription-section .plans-section .plan-1 p.users span,
+.subscription-section .plans-section .plan-2 p.users span {
+    font-size: 21pt;
+    color: #947cc3;
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.view-section img {
+    width: 100%;
+}
+
+.link-section {
+    background: #8f76bf;
+    padding: 40px 0px;
+}
+
+.link-section a {
+    font-size: 16pt;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    background: #3fc1c4;
+    font-family: Nexa_bold;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 25px 60px;
+    display: block;
+    width: 320px;
+    margin: 0 auto;
+    letter-spacing: 1px;
+}
+
+.footer-section {
+    padding: 50px 0px;
+}
+
+.footer-section ul {
+    text-align: center;
+}
+
+.footer-section ul li {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin-right: 90px;
+}
+
+.footer-section ul li:last-child {
+    margin-right: 0;
+}
+
+.footer-section ul li h3 {
+    font-size: 20pt;
+    color: #b7bfc5;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    font-size: 14pt;
+    color: #b7bfc5;
+    display: block;
+    margin-top: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.footer-section img {
+    margin: 20px auto 0px auto;
+}

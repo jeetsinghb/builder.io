@@ -1,0 +1,200 @@
+@media only screen and (max-width: 1110px) {
+    .container {
+        width: 96%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .about-product-section .phone-image {
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    .main-section,
+    .subscription-section .plans-section {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .main-section {
+        width: 100%;
+    }
+
+    .main-section .banner-section p {
+        line-height: 32px;
+    }
+
+    .about-product-section .left-about-product,
+    .about-product-section .right-about-product {
+        float: none;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .about-product-section .phone-image img {
+        width: 100%;
+    }
+
+    .services-section ul {
+        text-align: center;
+    }
+
+    .services-section ul li {
+        width: 100%;
+        margin-right: 0%;
+        margin-bottom: 80px;
+    }
+
+    .services-section ul li:last-child {
+        margin-bottom: 0;
+    }
+
+    .services-section ul li h3 {
+        margin-top: 40px;
+    }
+
+    .subscription-section .plans-section {
+        width: 100%;
+    }
+
+    .subscription-section .plans-section .plan-1,
+    .subscription-section .plans-section .plan-2 {
+        float: none;
+        width: 100%;
+    }
+
+    .subscription-section .plans-section .plan-1 {
+        margin-bottom: 80px;
+    }
+
+    .subscription-section .plans-section .plan-1 .free-plan a.plan-sign-up,
+    .subscription-section .plans-section .plan-2 .yearly-plan a.plan-sign-up {
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    
+}
+
+@media only screen and (max-width: 736px) {
+    
+}
+
+@media only screen and (max-width: 640px) {
+    .main-section .header-section,
+    .main-section .header-section ul {
+        text-align: center;
+    }
+
+    .subscription-section p {
+        line-height: 32px;
+    }
+
+    .about-product-section {
+        padding: 80px 0px;
+        text-align: center;
+    }
+
+    .about-product-section .phone-image {
+        display: none;
+    }
+
+    .services-section {
+        padding: 80px 0px;
+    }
+
+    .footer-section ul,
+    .footer-section ul li {
+        text-align: center;
+    }
+
+    .footer-section ul li {
+        width: 50%;
+        margin-right: 0;
+    }
+
+    .footer-section ul li:last-child {
+        margin-top: 50px;
+    }
+
+    .footer-section img {
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .take-look-section ul li {
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .take-look-section ul li:last-child {
+        margin: 40px auto 0 auto;
+
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    #back2Top {
+        margin-right: 40px;
+    }
+
+    .main-section .banner-section a.sign-up-btn {
+        width: 100%;
+    }
+
+    .get-started ul li {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .get-started ul li:last-child {
+        margin-top: 40px;
+    }
+
+    .get-started p {
+        font-size: 18pt;
+    }
+
+    .get-started h3,
+    .about-product-section .left-about-product h3,
+    .about-product-section .right-about-product h3
+    .subscription-section h3,
+    .subscription-section h3 {
+        font-size: 30pt;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .link-section a {
+        width: 100%;
+    }
+    
+    .footer-section ul li {
+        width: 100%;
+    }
+
+    .footer-section ul li:nth-child(2) {
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .main-section .banner-section h1 {
+        font-size: 40pt;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+ 
+}
+
+@media only screen and (max-width: 320px) {
+    .take-look-section ul li {
+        width: 100%;
+    }
+}
